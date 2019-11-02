@@ -1,0 +1,28 @@
+{
+  "name": "hackaton",
+  "version": "1.0.0",
+  "description": "stuff",
+  "main": "./ServerStuff./index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yingwei123/hackaton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yingwei123/hackaton/issues"
+  },
+  "homepage": "https://github.com/yingwei123/hackaton#readme",
+  "dependencies": {
+    "mocha": "^6.2.2",
+    "mongoose": "^5.7.7",
+    "nodemon": "^1.19.4",
+    "restify": "^8.4.0",
+    "restify-errors": "^8.0.1"
+  }
+}
