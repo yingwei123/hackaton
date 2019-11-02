@@ -34,11 +34,7 @@ const mongoose = require('mongoose');
      trim:true
 
    },
-   listings:{
-     type : Array,
-     trim:true
-
-   },
+   
    rank:{
       type:String,
 
