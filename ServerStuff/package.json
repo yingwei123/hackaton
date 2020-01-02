@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/yingwei123/hackaton#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "mocha": "^6.2.2",
     "mongoose": "^5.7.7",
+    "mongoose-timestamp": "^0.6.0",
     "nodemon": "^1.19.4",
     "restify": "^8.4.0",
     "restify-errors": "^8.0.1"

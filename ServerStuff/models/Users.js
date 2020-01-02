@@ -2,10 +2,13 @@ const mongoose = require('mongoose');
  const timestamp = require('mongoose-timestamp');
 
  const UsersSchema = new mongoose.Schema({
-   name: {
+   firstname: {
      type:String,
 
      trim :true
+   },
+   lastname:{
+
    },
    email:{
      type :String,
@@ -34,7 +37,7 @@ const mongoose = require('mongoose');
      trim:true
 
    },
-   
+
    rank:{
       type:String,
 
